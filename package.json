@@ -1,0 +1,34 @@
+{
+	"name": "horizion-plus",
+	"displayName": "Horizon+",
+	"description": "A revamped rendition of the original Horizon theme.",
+	"version": "1.0.0-alpha",
+	"private": true,
+	"engines": {
+		"vscode": "^1.53.0"
+	},
+	"scripts": {
+		"build": "ts-node scripts/build.ts",
+		"package": "vsce package"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Horizon+",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Orchid-color-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^14.14.27",
+		"tslib": "^2.1.0",
+		"typescript": "^4.2.2"
+	},
+	"dependencies": {
+		"readdirp": "^3.5.0"
+	}
+}
