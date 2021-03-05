@@ -1,3 +1,9 @@
+/**
+ * Scopes based on "vscode-graphql"
+ *
+ * https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql
+ */
+
 import { TokenColor } from '../types';
 
 export default {
