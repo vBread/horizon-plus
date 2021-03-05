@@ -7,6 +7,12 @@ export interface TokenConfig {
 	};
 }
 
+export enum TokenFontStyle {
+	All = 'italic bold',
+	Bold = 'bold',
+	Italic = 'italic'
+}
+
 export enum TokenColor {
 	Amethyst = '#B877DB',
 	Aurora = '#78E08F',
@@ -22,8 +28,6 @@ export enum TokenColor {
 	Storm = '#AAAAAA'
 }
 
-export enum TokenFontStyle {
-	All = 'italic bold',
-	Bold = 'bold',
-	Italic = 'italic'
+export enum ThemeColor {
+	Midnight = '#1C1E26'
 }

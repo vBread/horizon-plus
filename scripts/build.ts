@@ -2,6 +2,7 @@ import { writeFile } from 'fs/promises';
 import { basename } from 'path';
 import readdirp from 'readdirp';
 import { TokenConfig } from '../src/types';
+import { walkObject } from './index';
 
 const languages = readdirp(`${process.cwd()}/src/languages`);
 const themeFile = `${process.cwd()}/themes/Orchid-color-theme.json`;
@@ -9,22 +10,10 @@ const semanticTokenColors: Record<string, TokenConfig['settings']> = {};
 
 void (async (): Promise<void> => {
 	const buildScopes = (object: object): TokenConfig[] => {
-		const walk = (object = {}, head = ''): string[] => {
-			return Object.entries(object).reduce((product, [key, value]: [string, object | string]) => {
-				const path = head ? `${head}.${key}` : key;
-
-				if (value.toString() === '[object Object]') {
-					return product.concat(walk(value, path));
-				}
-
-				return product.concat(`${path}.${value}`);
-			}, []);
-		};
-
 		const tokens = new Map<string, Record<string, string>>();
 		const tokenColors: TokenConfig[] = [];
 
-		for (const path of walk(object)) {
+		for (const path of walkObject(object)) {
 			const keys = path.split('.');
 			const cleaned: string[] = [];
 			const [setting, value] = keys.splice(-2);
