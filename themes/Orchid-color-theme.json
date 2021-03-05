@@ -425,6 +425,102 @@
             }
         },
         {
+            "scope": "keyword.operation",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.on",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.fragment",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.type",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.schema",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.enum",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.scalar",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "string.unquoted.alias.graphql",
+            "settings": {
+                "foreground": "#E95678"
+            }
+        },
+        {
+            "scope": "variable.graphql",
+            "settings": {
+                "foreground": "#E95678"
+            }
+        },
+        {
+            "scope": "variable.arguments.graphql",
+            "settings": {
+                "foreground": "#E95678"
+            }
+        },
+        {
+            "scope": "variable.fragment.graphql",
+            "settings": {
+                "foreground": "#F8C291"
+            }
+        },
+        {
+            "scope": "constant.character.enum.graphql",
+            "settings": {
+                "foreground": "#E95678"
+            }
+        },
+        {
+            "scope": "entity.scalar",
+            "settings": {
+                "foreground": "#F8C291"
+            }
+        },
+        {
+            "scope": "punctuation.colon",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "punctuation.comma",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "punctuation.assignment",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
             "scope": "entity.name.tag.style",
             "settings": {
                 "foreground": "#E95678"
