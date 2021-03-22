@@ -467,6 +467,30 @@
             }
         },
         {
+            "scope": "keyword.interface",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.implements",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.union",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.input",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
             "scope": "string.unquoted.alias.graphql",
             "settings": {
                 "foreground": "#E95678"
@@ -521,6 +545,12 @@
             }
         },
         {
+            "scope": "punctuation.or",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
             "scope": "entity.name.tag.style",
             "settings": {
                 "foreground": "#E95678"
@@ -554,6 +584,30 @@
             "scope": "entity.other.attribute-name.html",
             "settings": {
                 "foreground": "#F8C291"
+            }
+        },
+        {
+            "scope": "constant.other.path",
+            "settings": {
+                "foreground": "#E95678"
+            }
+        },
+        {
+            "scope": "constant.other.character.range",
+            "settings": {
+                "foreground": "#F09483"
+            }
+        },
+        {
+            "scope": "punctuation.definition.range",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "punctuation.separator.directory",
+            "settings": {
+                "foreground": "#BBBBBB"
             }
         },
         {
@@ -733,6 +787,36 @@
             "scope": "string.other.link.title",
             "settings": {
                 "foreground": "#25B0BC"
+            }
+        },
+        {
+            "scope": "keyword.other.DDL",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.sql",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.DML",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.create",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.operator.star.sql",
+            "settings": {
+                "foreground": "#E95678"
             }
         }
     ],

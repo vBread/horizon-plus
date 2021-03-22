@@ -2,7 +2,7 @@
 	"name": "horizion-plus",
 	"displayName": "Horizon+",
 	"description": "A revamped rendition of the original Horizon theme.",
-	"version": "1.0.0-alpha",
+	"version": "1.1.0-alpha",
 	"private": true,
 	"engines": {
 		"vscode": "^1.53.0"
