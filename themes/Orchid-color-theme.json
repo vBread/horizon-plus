@@ -697,6 +697,12 @@
             }
         },
         {
+            "scope": "keyword.local.lua",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
             "scope": "markup.quote",
             "settings": {
                 "foreground": "#78E08F"
