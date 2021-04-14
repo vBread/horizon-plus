@@ -587,21 +587,27 @@
             }
         },
         {
-            "scope": "constant.other.path",
+            "scope": "entity.other.path",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.operator.quantifier.ignore",
             "settings": {
                 "foreground": "#E95678"
             }
         },
         {
-            "scope": "constant.other.character.range",
+            "scope": "constant.other.character-class.range.ignore",
             "settings": {
-                "foreground": "#F09483"
+                "foreground": "#89B6FF"
             }
         },
         {
-            "scope": "punctuation.definition.range",
+            "scope": "punctuation.definition.character-class.ignore",
             "settings": {
-                "foreground": "#B877DB"
+                "foreground": "#BBBBBB"
             }
         },
         {
