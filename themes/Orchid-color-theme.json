@@ -551,6 +551,174 @@
             }
         },
         {
+            "scope": "keyword.other.import",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.module",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.where",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.data",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.deriving",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.instance",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.type",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.hiding",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.qualified",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.newtype",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.class",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.family",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.forall",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.foreign",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "keyword.other.pattern",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "punctuation.separator.comma.haskell",
+            "settings": {
+                "foreground": "#BBBBBB"
+            }
+        },
+        {
+            "scope": "meta.declaration.exports.haskell storage.type.haskell",
+            "settings": {
+                "foreground": "#E95678"
+            }
+        },
+        {
+            "scope": "meta.declaration.exports.haskell",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
+            "scope": "meta.declaration.data.algebraic.haskell constant.other.haskell",
+            "settings": {
+                "foreground": "#E95678"
+            }
+        },
+        {
+            "scope": "meta.declaration.data.algebraic.haskell storage.type.haskell",
+            "settings": {
+                "foreground": "#F8C291"
+            }
+        },
+        {
+            "scope": "meta.declaration.data.generalized.haskell storage.type.haskell",
+            "settings": {
+                "foreground": "#F8C291"
+            }
+        },
+        {
+            "scope": "meta.declaration.data.generalized.haskell constant.other.haskell",
+            "settings": {
+                "foreground": "#25B0BC"
+            }
+        },
+        {
+            "scope": "meta.declaration.type.haskell storage.type.haskell",
+            "settings": {
+                "foreground": "#F8C291"
+            }
+        },
+        {
+            "scope": "meta.declaration.instance.haskell storage.type.haskell",
+            "settings": {
+                "foreground": "#F8C291"
+            }
+        },
+        {
+            "scope": "meta.declaration.class.haskell storage.type.haskell",
+            "settings": {
+                "foreground": "#F8C291"
+            }
+        },
+        {
+            "scope": "meta.type-application.haskell storage.type.haskell",
+            "settings": {
+                "foreground": "#F8C291"
+            }
+        },
+        {
+            "scope": "meta.function.type-declaration.haskell storage.type.haskell",
+            "settings": {
+                "foreground": "#F8C291"
+            }
+        },
+        {
+            "scope": "variable.other.member.wildcard.haskell",
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
+        {
             "scope": "entity.name.tag.style",
             "settings": {
                 "foreground": "#E95678"
