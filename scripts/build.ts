@@ -14,9 +14,7 @@ interface Token {
 
 interface MatchGroups {
 	scopes: string;
-	foreground?: string;
-	fontStyle?: string;
-	style: string;
+	settings: string;
 }
 
 const tokens: Token[] = [];
@@ -25,18 +23,32 @@ void (async (): Promise<void> => {
 	const compiled = renderSync({ file: index }).css.toString();
 
 	let match: RegExpExecArray;
-	const regex = /(?<scopes>.+) {\s+(?:(?<foreground>color)|(?<fontStyle>font-(?:weight|style))): (?<style>#[a-f\d]{6})/gim;
+	const regex = /(?<scopes>.+) {(?<settings>(?:\s+[\w-]+: [#\w\d]+;)+)/gim;
 
 	while ((match = regex.exec(compiled))) {
 		const groups = (match.groups as unknown) as MatchGroups;
 		const settings: Token['settings'] = {};
 
-		if (groups.foreground) {
-			settings.foreground = groups.style;
-		}
+		const styles =
+			groups.settings
+				.trim()
+				.split('\n')
+				.map((x) => x.trim()) ?? [];
 
-		if (groups.fontStyle) {
-			settings.fontStyle = groups.style;
+		for (const style of styles) {
+			const [, key, value] = style.match(/^(color|font-weight|font-style): (.+);$/);
+
+			switch (key) {
+				case 'color': {
+					settings.foreground = value;
+					break;
+				}
+
+				case 'font-style':
+				case 'font-weight': {
+					settings.fontStyle = value;
+				}
+			}
 		}
 
 		if (groups.scopes.includes(', ')) {
