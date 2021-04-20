@@ -9,6 +9,7 @@
 		"vscode": "^1.53.0"
 	},
 	"scripts": {
+		"watch": "nodemon --watch 'src/languages/*' --exec 'npm run build' -e scss",
 		"build": "ts-node scripts/build.ts",
 		"package": "vsce package"
 	},
