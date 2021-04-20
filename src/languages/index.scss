@@ -23,6 +23,8 @@ $storm: #aaaaaa;
 @import './JavaScript';
 @import './Markdown';
 @import './SQL';
+@import './TOML';
+@import './YAML';
 
 #string {
 	&.quoted,

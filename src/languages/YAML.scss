@@ -1,0 +1,43 @@
+#punctuation.definition {
+	&.directive.begin.yaml,
+	&.block.sequence.item.yaml {
+		color: $amethyst;
+	}
+}
+
+#entity {
+	&.name {
+		&.tag.yaml {
+			color: $carmine;
+		}
+
+		&.type.anchor.yaml {
+			color: $ocean;
+		}
+	}
+
+	&.other.document {
+		&.begin,
+		&.end {
+			color: $amethyst;
+		}
+	}
+}
+
+#variable.other.alias.yaml {
+	color: $ocean;
+}
+
+#meta {
+	&.directive #keyword {
+		color: $nectarine;
+	}
+
+	&.block-mapping.yaml {
+		#string {
+			color: $smoke;
+		}
+
+		color: $amethyst;
+	}
+}

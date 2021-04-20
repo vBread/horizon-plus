@@ -1,0 +1,24 @@
+/**
+ * Scopes based on "TOML Language Support"
+ *
+ * https://marketplace.visualstudio.com/items?itemName=be5invis.toml
+ */
+
+#entity {
+	&.name.tag.toml {
+		color: $carmine;
+	}
+
+	&.name.section.group-title.ini,
+	&.other.attribute-name.table.toml {
+		color: $amethyst;
+	}
+}
+
+#punctuation.definition.keyValue.toml {
+	color: $amethyst;
+}
+
+#keyword.other.definition.ini {
+	color: $carmine;
+}
