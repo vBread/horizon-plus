@@ -1,0 +1,26 @@
+#constant.keyword.clojure {
+	color: $carmine;
+}
+
+#meta {
+	&.vector.clojure {
+		color: $amethyst;
+	}
+
+	&.symbol.clojure {
+		color: $carmine;
+	}
+}
+
+#entity.global.clojure {
+	color: $carmine;
+}
+
+#punctuation.section.set {
+	&.begin,
+	&.end {
+		&.clojure {
+			color: $amethyst;
+		}
+	}
+}
