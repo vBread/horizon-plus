@@ -1,0 +1,60 @@
+#keyword {
+	&.function,
+	&.package,
+	&.import,
+	&.type,
+	&.const,
+	&.struct,
+	&.var,
+	&.channel,
+	&.interface,
+	&.map {
+		&.go {
+			color: $amethyst;
+		}
+	}
+
+	&.go.mod {
+		color: $amethyst;
+	}
+}
+
+#punctuation {
+	&.other {
+		&.colon,
+		&.period {
+			&.go {
+				color: $amethyst;
+			}
+		}
+	}
+
+	&.separator.constant.numeric.go {
+		color: $marigold;
+	}
+}
+
+#storage.type {
+	&.numeric,
+	&.string,
+	&.boolean,
+	&.byte,
+	&.error,
+	&.rune,
+	&.uintptr {
+		&.go {
+			color: $nectarine;
+		}
+	}
+}
+
+#entity.name.import.go {
+	color: $carmine;
+}
+
+#string.unquoted.go {
+	&.mod,
+	&.sum {
+		color: $spring;
+	}
+}
