@@ -1,0 +1,30 @@
+#parameter.variable.function.elixir {
+	color: $carmine;
+}
+
+#variable.other.readwrite.module.elixir {
+	color: $ocean;
+}
+
+#constant.other.symbol.elixir {
+	color: $carmine;
+}
+
+#punctuation {
+	&.definition {
+		&.constant,
+		&.variable {
+			&.elixir {
+				color: $amethyst;
+			}
+		}
+	}
+
+	&.section.function.elixir {
+		color: $smoke;
+	}
+}
+
+#source.elixir.embedded.source {
+	color: $carmine;
+}
