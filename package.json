@@ -2,7 +2,7 @@
 	"name": "horizon-plus",
 	"displayName": "Horizon+",
 	"description": "A revamped rendition of the original Horizon theme.",
-	"version": "1.2.0-alpha",
+	"version": "1.3.0-alpha",
 	"publisher": "Breadnaught",
 	"private": true,
 	"engines": {
