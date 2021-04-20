@@ -3,7 +3,9 @@
 		color: $spring;
 	}
 
-	&.property-value {
+	&.selector,
+	&.property-value,
+	&.property-name {
 		color: $nectarine;
 	}
 }
@@ -15,14 +17,14 @@
 	}
 
 	&.constant.property-value {
-		color: $nectarine;
+		color: $marigold;
 	}
 
 	&.function {
 		&.misc,
 		&.url,
 		&.transform {
-			color: $amethyst;
+			color: $ocean;
 		}
 	}
 }
@@ -46,33 +48,44 @@
 
 		&.pseudo-class,
 		&.pseudo-element {
+			#punctuation.definition.entity.css {
+				color: $amethyst;
+			}
+
 			color: $nectarine;
 		}
 
 		&.id {
-			color: $amethyst;
+			color: $ocean;
 		}
 	}
 
 	&.name {
-		&.function.scss,
 		&.tag.reference {
 			color: $amethyst;
 		}
 
-		&.tag.custom {
+		&.function.scss {
 			color: $ocean;
+		}
+
+		&.tag.custom {
+			color: $nectarine;
 		}
 	}
 }
 
 #variable {
 	&.scss {
-		color: $ocean;
+		color: $carmine;
 	}
 
 	&.argument.css {
 		color: $ocean;
 		font-style: italic;
+	}
+
+	&.interpolation.scss {
+		color: $amethyst;
 	}
 }
