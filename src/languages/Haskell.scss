@@ -10,27 +10,6 @@
 	}
 }
 
-#keyword.other {
-	&.import,
-	&.module,
-	&.where,
-	&.data,
-	&.deriving,
-	&.instance,
-	&.type,
-	&.hiding,
-	&.qualified,
-	&.newtype,
-	&.class,
-	&.family,
-	&.foreign,
-	&.forall {
-		&.haskell {
-			color: $amethyst;
-		}
-	}
-}
-
 #punctuation.separator.comma.haskell {
 	color: $smoke;
 }

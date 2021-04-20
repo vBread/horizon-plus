@@ -31,27 +31,8 @@
 	color: $amethyst;
 }
 
-#keyword {
-	&.other {
-		&.unit {
-			color: $carmine;
-		}
-
-		&.important {
-			color: $amethyst;
-		}
-	}
-
-	&.operator {
-		&.scss,
-		&.pattern.css {
-			color: $amethyst;
-		}
-	}
-
-	&.control.at-rule {
-		color: $amethyst;
-	}
+#keyword.other.unit {
+	color: $carmine;
 }
 
 #entity {

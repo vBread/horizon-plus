@@ -4,24 +4,6 @@
  * https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql
  */
 
-#keyword {
-	&.operation,
-	&.on,
-	&.fragment,
-	&.type,
-	&.schema,
-	&.enum,
-	&.scalar,
-	&.interface,
-	&.implements,
-	&.union,
-	&.input {
-		&.graphql {
-			color: $amethyst;
-		}
-	}
-}
-
 #string.unquoted.alias.graphql {
 	color: $carmine;
 }

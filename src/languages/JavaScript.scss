@@ -1,13 +1,5 @@
-#keyword.operator {
-	&.quantifier.regexp {
-		color: #89b6ff;
-	}
-
-	&.or.regexp {
-		color: $amethyst;
-	}
-
-	color: $amethyst;
+#keyword.operator.quantifier.regexp {
+	color: #89b6ff;
 }
 
 #entity.name.label {

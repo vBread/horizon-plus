@@ -21,7 +21,6 @@ $storm: #aaaaaa;
 @import './Ignore';
 @import './Markdown';
 @import './JavaScript';
-@import './Lua';
 @import './Markdown';
 @import './SQL';
 
@@ -136,22 +135,7 @@ $storm: #aaaaaa;
 }
 
 #keyword {
-	&.logical,
-	&.control {
-		color: $amethyst;
-	}
-
-	&.operator {
-		&.new,
-		&.expression,
-		&.logical,
-		&.delete,
-		&.type,
-		&.increment,
-		&.decrement {
-			color: $amethyst;
-		}
-	}
+	color: $amethyst;
 }
 
 #meta.object-literal.key {

@@ -1,24 +1,3 @@
-#keyword {
-	&.function,
-	&.package,
-	&.import,
-	&.type,
-	&.const,
-	&.struct,
-	&.var,
-	&.channel,
-	&.interface,
-	&.map {
-		&.go {
-			color: $amethyst;
-		}
-	}
-
-	&.go.mod {
-		color: $amethyst;
-	}
-}
-
 #punctuation {
 	&.other {
 		&.colon,
