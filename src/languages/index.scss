@@ -1,0 +1,156 @@
+$amethyst: #b877db;
+$aurora: #78e08f;
+$carmine: #e95678;
+$cerulean: #89b6ff;
+$chartreuse: #b3f172;
+$grisaille: #5c5d63;
+$marigold: #f09483;
+$nectarine: #f8c291;
+$ocean: #25b0bc;
+$smoke: #bbbbbb;
+$spring: #afd485;
+$storm: #aaaaaa;
+
+@import './CSS';
+@import './GraphQL';
+@import './Haskell';
+@import './HTML';
+@import './Ignore';
+@import './Markdown';
+@import './JavaScript';
+@import './Lua';
+@import './Markdown';
+@import './SQL';
+
+#string {
+	&.quoted,
+	&.template {
+		color: $spring;
+	}
+
+	&.regexp {
+		#keyword.other {
+			color: $amethyst;
+		}
+
+		color: $marigold;
+	}
+}
+
+#entity {
+	&.name {
+		&.variable {
+			color: $carmine;
+		}
+
+		&.function {
+			color: $ocean;
+		}
+
+		&.type {
+			color: $nectarine;
+		}
+
+		color: $nectarine;
+	}
+
+	&.other.inherited-class {
+		color: $nectarine;
+	}
+}
+
+#support {
+	&.variable,
+	&.type.property-name {
+		color: $carmine;
+	}
+
+	&.function {
+		color: $ocean;
+	}
+
+	color: $nectarine;
+}
+
+#variable {
+	&.language {
+		color: $nectarine;
+		font-style: italic;
+	}
+
+	&.other {
+		&.constant.property,
+		&.property {
+			color: $carmine;
+		}
+	}
+
+	&.parameter {
+		color: $carmine;
+		font-style: italic;
+	}
+}
+
+#storage {
+	&.type.cs {
+		color: $nectarine;
+	}
+
+	color: $amethyst;
+}
+
+#comment {
+	color: $grisaille;
+	font-style: italic;
+}
+
+#constant {
+	&.numeric {
+		color: $marigold;
+	}
+
+	&.character.escape {
+		color: $ocean;
+	}
+
+	color: $marigold;
+}
+
+#punctuation {
+	&.separator,
+	&.accessor,
+	&.section.embedded,
+	&.definition.template-expression {
+		color: $amethyst;
+	}
+
+	&.definition {
+		&.tag,
+		&.typeparameters {
+			color: $carmine;
+		}
+	}
+}
+
+#keyword {
+	&.logical,
+	&.control {
+		color: $amethyst;
+	}
+
+	&.operator {
+		&.new,
+		&.expression,
+		&.logical,
+		&.delete,
+		&.type,
+		&.increment,
+		&.decrement {
+			color: $amethyst;
+		}
+	}
+}
+
+#meta.object-literal.key {
+	color: $carmine;
+}

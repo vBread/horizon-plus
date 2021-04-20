@@ -1,0 +1,57 @@
+#keyword.operator {
+	&.quantifier.regexp {
+		color: #89b6ff;
+	}
+
+	&.or.regexp {
+		color: $amethyst;
+	}
+
+	color: $amethyst;
+}
+
+#entity.name.label {
+	color: $carmine;
+}
+
+#punctuation {
+	&.decorator {
+		color: $amethyst;
+	}
+
+	&.definition {
+		&.character-class.regexp,
+		&.bracket.curly {
+			color: $carmine;
+		}
+
+		&.group {
+			&.regexp,
+			&.assertion.regexp {
+				color: $chartreuse;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+#meta.import {
+	color: $carmine;
+}
+
+#variable {
+	&.object.property,
+	&.other {
+		color: $carmine;
+	}
+}
+
+#constant {
+	&.character.escape.backslash.regexp {
+		color: $storm;
+	}
+
+	&.other.character-class.regexp {
+		color: $cerulean;
+	}
+}

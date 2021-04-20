@@ -1,0 +1,19 @@
+#keyword {
+	&.other {
+		&.DDL,
+		&.sql {
+			color: $amethyst;
+		}
+
+		&.DML,
+		&.create {
+			&.sql {
+				color: $amethyst;
+			}
+		}
+	}
+
+	&.operator.star.sql {
+		color: $carmine;
+	}
+}

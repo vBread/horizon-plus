@@ -1,0 +1,66 @@
+#markup {
+	&.quote {
+		color: $aurora;
+	}
+
+	&.fenced_code {
+		color: $marigold;
+	}
+
+	&.inline.raw {
+		color: $ocean;
+	}
+
+	&.underline.link {
+		color: $nectarine;
+	}
+}
+
+#punctuation.definition {
+	&.heading {
+		color: $carmine;
+	}
+
+	&.list,
+	&.metadata {
+		color: $amethyst;
+	}
+
+	&.bold {
+		color: $amethyst;
+		font-weight: bold;
+	}
+
+	&.italic {
+		color: $amethyst;
+		font-style: italic;
+	}
+
+	&.string {
+		&.begin,
+		&.end {
+			&.markdown {
+				color: $carmine;
+			}
+		}
+	}
+}
+
+#meta {
+	&.separator {
+		color: $amethyst;
+	}
+
+	&.link.reference {
+		color: $carmine;
+		font-style: italic;
+	}
+}
+
+#entity.name.section {
+	color: $carmine;
+}
+
+#string.other.link.title {
+	color: $ocean;
+}

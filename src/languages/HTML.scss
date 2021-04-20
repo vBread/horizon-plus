@@ -1,0 +1,21 @@
+#entity {
+	&.name.tag {
+		&.style,
+		&.script,
+		&.template {
+			color: $carmine;
+		}
+
+		&.block.any {
+			color: $carmine;
+		}
+
+		&.html {
+			color: $carmine;
+		}
+	}
+
+	&.other.attribute-name.html {
+		color: $nectarine;
+	}
+}

@@ -1,0 +1,27 @@
+/**
+ * Scopes based on "vscode-ignore"
+ *
+ * https://marketplace.visualstudio.com/items?itemName=Breadnaught.vscode-ignore
+ */
+
+#entity.other.path {
+	color: $amethyst;
+}
+
+#keyword.operator.quantifier.ignore {
+	color: $carmine;
+}
+
+#constant.other.character-class.range.ignore {
+	color: $cerulean;
+}
+
+#punctuation {
+	&.definition.character.class.ignore {
+		color: $smoke;
+	}
+
+	&.separator.directory {
+		color: $smoke;
+	}
+}

@@ -1,0 +1,81 @@
+/**
+ * Scopes based on "Haskell Syntax Highlighting"
+ *
+ * https://marketplace.visualstudio.com/items?itemName=justusadam.language-haskell
+ */
+
+@mixin storage($color: $nectarine) {
+	#storage.type.haskell {
+		color: $color;
+	}
+}
+
+#keyword.other {
+	&.import,
+	&.module,
+	&.where,
+	&.data,
+	&.deriving,
+	&.instance,
+	&.type,
+	&.hiding,
+	&.qualified,
+	&.newtype,
+	&.class,
+	&.family,
+	&.foreign,
+	&.forall {
+		&.haskell {
+			color: $amethyst;
+		}
+	}
+}
+
+#punctuation.separator.comma.haskell {
+	color: $smoke;
+}
+
+#meta {
+	&.declaration {
+		&.exports.haskell {
+			@include storage($color: $carmine);
+
+			color: $amethyst;
+		}
+
+		&.data {
+			&.algebraic.haskell {
+				@include storage;
+
+				#constant.other.haskell {
+					color: $carmine;
+				}
+			}
+
+			&.generalized.haskell {
+				@include storage;
+
+				#constant.other.haskell {
+					color: $ocean;
+				}
+			}
+		}
+
+		&.type,
+		&.instance,
+		&.class {
+			&.haskell {
+				@include storage;
+			}
+		}
+	}
+
+	&.function.type-declaration.haskell,
+	&.type-application.haskell {
+		@include storage;
+	}
+}
+
+#variable.other.member.wildcard.haskell {
+	color: $amethyst;
+}
