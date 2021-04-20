@@ -1,0 +1,13 @@
+$resource-colors: (
+	'addedResource': #27d797b3,
+	'modifiedResource': #fab38e,
+	'deletedResource': #f43e5c,
+	'untrackedResource': #27d797,
+	'ignoredResource': #d5d8da4d
+);
+
+@each $name, $color in $resource-colors {
+	#gitDecoration.#{$name}Foreground {
+		color: $color;
+	}
+}

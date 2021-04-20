@@ -1,13 +1,40 @@
-$ansiBlue: #26bbd9;
-$ansiCyan: #59e1e3;
-$ansiGreen: #29d398;
-$ansiMagenta: #ee64ac;
-$ansiRed: #e95678;
-$ansiYellow: #fab795;
+$ansi-colors: (
+	'ansiBlue': #26bbd9,
+	'ansiCyan': #59e1e3,
+	'ansiGreen': #29d398,
+	'ansiMagenta': #ee64ac,
+	'ansiRed': #e95678,
+	'ansiYellow': #fab795,
+	'ansiBrightBlue': #3fc4de,
+	'ansiBrightCyan': #6be4e6,
+	'ansiBrightGreen': #3fdaa4,
+	'ansiBrightMagenta': #f075b5,
+	'ansiBrightRed': #ec6a88,
+	'ansiBrightYellow': #fbc3a7
+);
 
-$ansiBrightBlue: #3fc4de;
-$ansiBrightCyan: #6be4e6;
-$ansiBrightGreen: #3fdaa4;
-$ansiBrightMagenta: #f075b5;
-$ansiBrightRed: #ec6a88;
-$ansiBrightYellow: #fbc3a7;
+#terminal {
+	@each $name, $color in $ansi-colors {
+		&.#{$name} {
+			color: $color;
+		}
+	}
+
+	&.foreground {
+		color: #d5d8da;
+	}
+
+	&.selectionBackground {
+		color: #6c6f934d;
+	}
+
+	&Cursor {
+		&.background {
+			color: #d5d8da;
+		}
+
+		&.foreground {
+			color: #6c6f9380;
+		}
+	}
+}
