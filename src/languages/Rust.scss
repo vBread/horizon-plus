@@ -1,0 +1,31 @@
+#punctuation {
+	&.definition {
+		&.attribute,
+		&.lifetime {
+			&.rust {
+				color: $amethyst;
+			}
+		}
+	}
+
+	&.semi,
+	&.comma {
+		&.rust {
+			color: $smoke;
+		}
+	}
+
+	&.brackets.angle.rust {
+		color: $carmine;
+	}
+}
+
+#meta {
+	&.attribute.rust {
+		color: $ocean;
+	}
+
+	&.use.rust {
+		color: $carmine;
+	}
+}
