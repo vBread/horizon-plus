@@ -255,6 +255,48 @@
             }
         },
         {
+            "scope": "parameter.variable.function.elixir",
+            "settings": {
+                "foreground": "#e95678"
+            }
+        },
+        {
+            "scope": "variable.other.readwrite.module.elixir",
+            "settings": {
+                "foreground": "#25b0bc"
+            }
+        },
+        {
+            "scope": "constant.other.symbol.elixir",
+            "settings": {
+                "foreground": "#e95678"
+            }
+        },
+        {
+            "scope": "punctuation.definition.constant.elixir",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "punctuation.definition.variable.elixir",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "punctuation.section.function.elixir",
+            "settings": {
+                "foreground": "#bbbbbb"
+            }
+        },
+        {
+            "scope": "source.elixir.embedded.source",
+            "settings": {
+                "foreground": "#e95678"
+            }
+        },
+        {
             "scope": "punctuation.other.colon.go",
             "settings": {
                 "foreground": "#b877db"
@@ -835,9 +877,135 @@
             }
         },
         {
-            "scope": "keyword.operator.star.sql",
+            "scope": "punctuation.definition.attribute.rust",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "punctuation.definition.lifetime.rust",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "punctuation.semi.rust",
+            "settings": {
+                "foreground": "#bbbbbb"
+            }
+        },
+        {
+            "scope": "punctuation.comma.rust",
+            "settings": {
+                "foreground": "#bbbbbb"
+            }
+        },
+        {
+            "scope": "punctuation.brackets.angle.rust",
             "settings": {
                 "foreground": "#e95678"
+            }
+        },
+        {
+            "scope": "meta.attribute.rust",
+            "settings": {
+                "foreground": "#25b0bc"
+            }
+        },
+        {
+            "scope": "meta.use.rust",
+            "settings": {
+                "foreground": "#e95678"
+            }
+        },
+        {
+            "scope": "entity.name.tag.toml",
+            "settings": {
+                "foreground": "#e95678"
+            }
+        },
+        {
+            "scope": "entity.name.section.group-title.ini",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "entity.other.attribute-name.table.toml",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "punctuation.definition.keyValue.toml",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "keyword.other.definition.ini",
+            "settings": {
+                "foreground": "#e95678"
+            }
+        },
+        {
+            "scope": "punctuation.definition.directive.begin.yaml",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "punctuation.definition.block.sequence.item.yaml",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "entity.name.tag.yaml",
+            "settings": {
+                "foreground": "#e95678"
+            }
+        },
+        {
+            "scope": "entity.name.type.anchor.yaml",
+            "settings": {
+                "foreground": "#25b0bc"
+            }
+        },
+        {
+            "scope": "entity.other.document.begin",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "entity.other.document.end",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "variable.other.alias.yaml",
+            "settings": {
+                "foreground": "#25b0bc"
+            }
+        },
+        {
+            "scope": "meta.directive keyword",
+            "settings": {
+                "foreground": "#f8c291"
+            }
+        },
+        {
+            "scope": "meta.block-mapping.yaml",
+            "settings": {
+                "foreground": "#b877db"
+            }
+        },
+        {
+            "scope": "meta.block-mapping.yaml string",
+            "settings": {
+                "foreground": "#bbbbbb"
             }
         },
         {
