@@ -1,6 +1,7 @@
 #markup {
 	&.quote {
 		color: $aurora;
+		font-style: italic;
 	}
 
 	&.fenced_code {
@@ -12,7 +13,21 @@
 	}
 
 	&.underline.link {
-		color: $nectarine;
+		color: $spring;
+	}
+
+	&.bold {
+		color: $amethyst;
+		font-weight: bold;
+	}
+
+	&.italic {
+		color: $ocean;
+		font-style: italic;
+	}
+
+	&.list {
+		color: $spring;
 	}
 }
 
@@ -26,21 +41,11 @@
 		color: $amethyst;
 	}
 
-	&.bold {
-		color: $amethyst;
-		font-weight: bold;
-	}
-
-	&.italic {
-		color: $amethyst;
-		font-style: italic;
-	}
-
 	&.string {
 		&.begin,
 		&.end {
 			&.markdown {
-				color: $carmine;
+				color: $amethyst;
 			}
 		}
 	}
@@ -61,6 +66,13 @@
 	color: $carmine;
 }
 
-#string.other.link.title {
-	color: $ocean;
+#string.other.link {
+	&.title,
+	&.description {
+		color: $carmine;
+	}
+}
+
+#constant.other.reference.link {
+	color: $carmine;
 }
