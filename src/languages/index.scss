@@ -35,11 +35,12 @@ $storm: #aaaaaa;
 	}
 
 	&.regexp {
-		#keyword.other {
+		#keyword.other,
+		#punctuation.definition.string {
 			color: $amethyst;
 		}
 
-		color: $marigold;
+		color: #ffffff;
 	}
 }
 
