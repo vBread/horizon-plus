@@ -8,7 +8,7 @@ $marigold: #f09483;
 $nectarine: #f8c291;
 $ocean: #25b0bc;
 $smoke: #bbbbbb;
-$spring: #9ecbff;
+$spring: #a5d6ff;
 $storm: #aaaaaa;
 
 @import './Clojure';
@@ -25,6 +25,7 @@ $storm: #aaaaaa;
 @import './Markdown';
 @import './Rust';
 @import './TOML';
+@import './TypeScript';
 @import './Vue';
 @import './YAML';
 
