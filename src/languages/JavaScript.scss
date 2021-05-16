@@ -29,6 +29,10 @@
 
 #meta.import {
 	color: $carmine;
+
+	#meta.block #punctuation.definition.block {
+		color: $smoke;
+	}
 }
 
 #variable {
