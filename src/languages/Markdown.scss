@@ -4,12 +4,20 @@
 		font-style: italic;
 	}
 
-	&.fenced_code {
-		color: $marigold;
+	&.fenced_code.block.markdown {
+		color: $smoke;
+
+		#punctuation.definition.markdown {
+			color: $amethyst;
+		}
+
+		#fenced_code.block.language {
+			color: $carmine;
+		}
 	}
 
 	&.inline.raw {
-		color: $ocean;
+		color: $carmine;
 	}
 
 	&.underline.link {
@@ -24,10 +32,6 @@
 	&.italic {
 		color: $ocean;
 		font-style: italic;
-	}
-
-	&.list {
-		color: $spring;
 	}
 }
 
