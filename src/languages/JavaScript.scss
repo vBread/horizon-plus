@@ -43,6 +43,10 @@
 }
 
 #constant {
+	&.language.import-export-all {
+		color: $carmine;
+	}
+
 	&.character.escape.backslash.regexp {
 		color: $storm;
 	}
