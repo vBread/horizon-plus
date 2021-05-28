@@ -1,0 +1,74 @@
+#markup {
+	@for $i from 0 through 5 {
+		&.heading.heading-#{$i}.asciidoc {
+			color: $carmine;
+		}
+	}
+
+	&.heading {
+		&.asciidoc {
+			color: $amethyst;
+
+			#markup.meta.attribute-list.asciidoc {
+				color: $carmine;
+			}
+		}
+
+		#markup.meta.attribute-list.asciidoc {
+			color: $carmine;
+		}
+
+		&.block-attribute.asciidoc {
+			color: $amethyst;
+		}
+
+		&.blocktitle.asciidoc {
+			color: $carmine;
+		}
+	}
+
+	&.italic.quotes.asciidoc {
+		font-style: normal;
+		color: $amethyst;
+	}
+
+	&.list.bullet.asciidoc,
+	&.macro.inline.passthrough.asciidoc #support.constant.asciidoc {
+		color: $amethyst;
+	}
+
+	&.meta.attribute-list.asciidoc,
+	&.substitution.attribute-reference.asciidoc,
+	&.raw.monospace.asciidoc {
+		color: $carmine;
+	}
+
+	&.link.asciidoc {
+		color: $spring;
+	}
+
+	&.super.superscript.asciidoc,
+	&.sub.subscript.asciidoc {
+		#punctuation.definition.asciidoc {
+			color: $carmine;
+		}
+	}
+}
+
+#constant {
+	&.other.symbol {
+		color: $amethyst;
+
+		&.horizontal-rule.asciidoc {
+			color: $amethyst;
+		}
+	}
+}
+
+#support.constant.attribute-name.asciidoc {
+	color: $carmine;
+}
+
+#variable.line-break.asciidoc {
+	color: $amethyst;
+}
